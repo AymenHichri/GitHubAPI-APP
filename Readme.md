@@ -146,12 +146,6 @@ write:repo_hook
 
 Token is passed per-request and not stored on the backend.
 
-Rate limits are governed by GitHub:
-
-Authenticated: 5000 requests/hour
-
-Unauthenticated: 60 requests/hour (not recommended)
-
 ✅ Future Improvements
 
 Add JWT authentication for sessions
